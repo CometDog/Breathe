@@ -1,0 +1,49 @@
+{
+  "name": "Breathe",
+  "author": "James Downs",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {
+    "@smallstoneapps/utils": "^1.3.0"
+  },
+  "pebble": {
+    "displayName": "Breathe",
+    "uuid": "8f50e4f1-f30e-4db5-91bd-8e0c7140ebc3",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite",
+      "emery"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": [
+        {
+          "file": "images/wind.png",
+          "menuIcon": true,
+          "name": "MENU_ICON",
+          "type": "png"
+        },
+        {
+          "file": "images/plus.png",
+          "name": "PLUS_ICON",
+          "type": "png"
+        },
+        {
+          "file": "images/check.png",
+          "name": "CHECK_ICON",
+          "type": "png"
+        }
+      ]
+    }
+  }
+}
